@@ -9,13 +9,12 @@
     background-repeat: no-repeat;
     width: 1600px;
     height: 809px;
-    flex-shrink: 0;
 }
 
 .header-section {
     text-align: right;
     padding: 216px 230px 167px 875px;
-    }
+}
 
 .header-title {
     color: #151414;
@@ -27,8 +26,6 @@
 
 .header-description {
     color: #444343;
-    font-size: 16px;
-    font-weight: 400;
     width: 494px;
 }
 
@@ -42,4 +39,137 @@
     color: #FFF;
     font-weight: 600;
     border: 0;
+}
+
+/* ................failure section style.............. */
+.failure-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.failure-title {
+    color: #151414;
+    font-weight: 700;
+    width: 288px;
+    font-size: 40px;
+
+}
+
+.failure-description {
+    color: #444343;
+    width: 416px;
+}
+
+.failure-list {
+    color: #444343
+}
+
+/* ................plan section style............... */
+.plan-section {
+    margin-top: 200px;
+}
+
+.plan-section h3 {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+/* ................gradient style.............. */
+
+.gradient-section {
+    margin-top: 100px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 50px 600px 150px 60px;
+    width: 1140px;
+    height: 300px;
+}
+
+.gradient-title {
+    color: #FFF;
+    width: 459px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gradient-btn {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    margin-bottom: 60px;
+}
+
+/* ...........footer style............ */
+footer {
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+    color: #F8F8F8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    align-items: center;
+}
+
+.social-icon-container {
+    display: flex;
+    gap: 20px;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email-btn {
+    margin-bottom: 25px;
+    background: #151414;
+    color: white;
+    font-size: 18px;
+    padding: 22px 160px 22px 22px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #F8F8F8;
+
+}
+.subscribe-btn{
+    background: #F15B22;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: 0;
+    color: #F8F8F8;
+    font-size: 18px;
 }
